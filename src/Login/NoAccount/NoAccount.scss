@@ -1,0 +1,25 @@
+.NoAccount {
+  padding: 2.4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(207, 207, 207);
+  background: #fff;
+
+  &__text {
+    font-size: 1.4rem;
+    color: #262626;
+  }
+  &__option {
+    color: #0095f6;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 600px) {
+    & {
+      border: none;
+      background: transparent;
+    }
+  }
+}

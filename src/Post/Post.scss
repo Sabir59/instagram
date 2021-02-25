@@ -1,0 +1,39 @@
+.Post {
+  background: #fff;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+  &__header {
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__photo {
+    width: 100%;
+    max-height: 61.4rem;
+    object-fit: cover;
+  }
+  &__description {
+    font-weight: normal;
+    padding: 0 1.6rem 1rem 1.6rem;
+    font-size: 1.6rem;
+  }
+  &__reactions {
+    border-bottom: 0.6px solid rgb(207, 207, 207);
+    padding: 1rem 0;
+    & > * {
+      display: flex;
+    }
+    & :not(:last-child) {
+      margin-right: 1.6rem;
+    }
+  }
+  &__footer {
+    padding: 1.6rem;
+  }
+  &__date {
+    margin-top: 1.6rem;
+  }
+  &__commentPlus {
+  }
+}

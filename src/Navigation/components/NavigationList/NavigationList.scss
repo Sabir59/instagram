@@ -1,0 +1,6 @@
+.NavigationList {
+  list-style: none;
+  & > :not(:last-child) {
+    margin-right: 1.8rem;
+  }
+}

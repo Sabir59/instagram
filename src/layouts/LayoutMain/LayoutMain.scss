@@ -1,0 +1,16 @@
+.LayoutMain {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6.1rem;
+  &__header {
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    & > :not(:last-child) {
+      margin-bottom: 8rem;
+    }
+  }
+}

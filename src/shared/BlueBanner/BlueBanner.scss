@@ -1,0 +1,15 @@
+.BlueBanner {
+  height: 5.4rem;
+  background: linear-gradient(to right, #3e9df0, #5ec2f1);
+  display: flex;
+  align-items: center;
+  padding: 0 2.1rem;
+  width: 100%;
+  &__text {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  &__heading {
+    font-size: 1.4rem;
+  }
+}

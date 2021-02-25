@@ -1,0 +1,22 @@
+.Suggestions {
+  &__people {
+    margin-top: 3rem;
+    & > :not(:last-child) {
+      margin-bottom: 1.6rem;
+    }
+  }
+  &__photo {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+  &__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #8e8e8e;
+    margin-bottom: 1.7rem;
+  }
+  &__copyright {
+    text-transform: uppercase !important;
+    font-weight: bold;
+  }
+}

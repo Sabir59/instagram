@@ -1,0 +1,24 @@
+.get-app {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__text {
+    font-size: 1.4rem;
+    color: #262626;
+  }
+  &__badges {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.4rem;
+  }
+  &__badge {
+    width: 100%;
+    max-width: 13.6rem;
+    height: 4rem;
+    object-fit: contain;
+    &:not(:last-of-type) {
+      //   margin-right: 0.8rem;
+    }
+  }
+}
